@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.backgroundsec {
+  /* background-color: red; */
+
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnid {
+  cursor: pointer;
+  display: flex;
+  background-color: white;
+  border-radius: 0.5em;
+  border: 1px solid black;
+  padding: 0.5em;
+  text-align: center;
+  box-shadow: 1.5px 1.5px 1.5px 0.4px black;
+  font-style: italic;
+}
+#btnid:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  color: light;
+}
