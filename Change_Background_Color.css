@@ -9,8 +9,6 @@ html {
 }
 
 .backgroundsec {
-  /* background-color: red; */
-
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -26,9 +24,10 @@ html {
   border: 1px solid black;
   padding: 0.5em;
   text-align: center;
-  box-shadow: 1.5px 1.5px 1.5px 0.4px black;
+  box-shadow: 2px 2px 2px 1px black;
   font-style: italic;
 }
+
 #btnid:hover {
   background-color: black;
   color: white;
@@ -36,4 +35,6 @@ html {
 
 .btn {
   color: light;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
