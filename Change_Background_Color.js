@@ -2,23 +2,17 @@ const button = document.querySelector(".btn");
 const background = document.querySelector(".backgroundsec");
 
 const bgcolor = [
-  "lightcoral",
+  "violet",
+  "indigo",
+  "blue",
+  "green",
+  "yellow",
+  "orange",
+  "red"
 
-  "lightblue",
+]
 
-  "lightcyan",
-
-  "cornflowerblue",
-
-  "cadetblue",
-
-  "tomato",
-
-  "peru",
-];
-
-background.style.backgroundColor =
-  bgcolor[parseInt(Math.random() * bgcolor.length)];
+background.style.backgroundColor = bgcolor[parseInt(Math.random() * bgcolor.length)];
 
 const changebgFunction = () => {
   const colorindex = parseInt(Math.random() * bgcolor.length);
