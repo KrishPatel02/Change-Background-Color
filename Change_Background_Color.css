@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .backgroundsec {
   display: flex;
   width: 100vw;
@@ -13,6 +15,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 #btnid {
   cursor: pointer;
   display: flex;
@@ -24,10 +27,12 @@ html {
   box-shadow: 2px 2px 2px 1px black;
   font-style: italic;
 }
+
 #btnid:hover {
   background-color: black;
   color: white;
 }
+
 .btn {
   color: light;
   font-weight: bold;
