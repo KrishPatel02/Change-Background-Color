@@ -2,13 +2,19 @@ const button = document.querySelector(".btn");
 const background = document.querySelector(".backgroundsec");
 
 const bgcolor = [
-  "violet",
-  "indigo",
-  "blue",
-  "green",
-  "yellow",
-  "orange",
-  "red"
+  "lightcoral",
+
+  "lightblue",
+
+  "lightcyan",
+
+  "cornflowerblue",
+
+  "cadetblue",
+
+  "tomato",
+
+  "peru",
 
 ]
 
